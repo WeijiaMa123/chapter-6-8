@@ -28,9 +28,17 @@ def is_factor(f,n):
             return False
     else:
         return False
-    
-    
 
+def is_multiple(a,b):
+    if is_factor(b,a):
+        return True
+    else:
+        return False
+    
+def f2c(f):
+    c=(f-32)/1.8
+    answer=round(c,0)
+    return answer
 
 def test_suite():
     test(is_even(3)==False)
@@ -44,6 +52,22 @@ def test_suite():
     test(is_factor(1, 15))
     test(is_factor(15, 15))
     test(not is_factor(25, 15))
+    test(is_multiple(12, 3))
+    test(is_multiple(12, 4))
+    test(not is_multiple(12, 5))
+    test(is_multiple(12, 6))
+    test(not is_multiple(12, 7))
+    test(f2c(212) == 100)     # Boiling point of water
+    test(f2c(32) == 0)        # Freezing point of water
+    test(f2c(-40) == -40)     # Wow, what an interesting case
+    test(f2c(36) == 2)
+    test(f2c(37) == 3)
+    test(f2c(38) == 3)
+    test(f2c(39) == 4)
 
+
+
+    
+    
 
 test_suite()
