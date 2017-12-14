@@ -7,6 +7,19 @@ def test(did_pass):
     else:
         msg = ("Test at line {0} FAILED.".format(linenum))
     print(msg)
+    
+def turn_clockwise(direction):
+    point=direction
+    if point==("N"):
+        return "E"
+    elif point==("E"):
+        return "S"
+    elif point==("S"):
+        return "W"
+    elif point==("W"):
+        return "N"
+    else:
+        return None
 def day_name(number):
     if number== 0:
         return "Sunday"
@@ -46,15 +59,56 @@ def day_add(dayname,dayleave):
     ldaynum= (sdaynum + dayleave)%7
     return day_name(ldaynum)
 
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+def is_odd(n):
+    if n%2 == 1:
+        return True
+    else:
+        return False
+
+
+def is_factor(f,n):
+    if f <n or f == n:
+        if n%f==0:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+def is_multiple(a,b):
+    if is_factor(b,a):
+        return True
+    else:
+        return False
+    
+def f2c(f):
+    c=(f-32)/1.8
+    answer=round(c,0)
+    return answer
+
 def test_suite():
+    test(turn_clockwise("N") == "E")
+    test(turn_clockwise("W") == "N")  
+    test(turn_clockwise(42) == None)
+    test(turn_clockwise("rubbish") == None)
+    
     test(day_name(3) == "Wednesday")
     test(day_name(6) == "Saturday")
     test(day_name(42) == None)
+    
     test(day_num("Friday") == 5)
     test(day_num("Sunday") == 0)
     test(day_num(day_name(3)) == 3)
     test(day_name(day_num("Thursday")) == "Thursday")
     test(day_num("Halloween") == None)
+    
     test(day_add("Monday", 4) ==  "Friday")
     test(day_add("Tuesday", 0) == "Tuesday")
     test(day_add("Tuesday", 14) == "Tuesday")
@@ -64,9 +118,38 @@ def test_suite():
     test(day_add("Tuesday", -100) == "Sunday")
     #it worked because -1 % 7 = 6 instead of -1
     #-a % b = b-a  if a < b
+    
+    test(is_even(3)==False)
+    test(is_even(0)==True)
+    
+    test(is_odd(1234565434567897678)==False)
+    test(is_odd(973428797987234993)==True)
+    
+    test(is_factor(3, 12))
+    test(not is_factor(5, 12))
+    test(is_factor(7, 14))
+    test(not is_factor(7, 15))
+    test(is_factor(1, 15))
+    test(is_factor(15, 15))
+    test(not is_factor(25, 15))
+    
+    test(is_multiple(12, 3))
+    test(is_multiple(12, 4))
+    test(not is_multiple(12, 5))
+    test(is_multiple(12, 6))
+    test(not is_multiple(12, 7))
+    
+    test(f2c(212) == 100)     # Boiling point of water
+    test(f2c(32) == 0)        # Freezing point of water
+    test(f2c(-40) == -40)     # Wow, what an interesting case
+    test(f2c(36) == 2)
+    test(f2c(37) == 3)
+    test(f2c(38) == 3)
+    test(f2c(39) == 4)
 
 
+
+    
+    
 
 test_suite()
-
-
