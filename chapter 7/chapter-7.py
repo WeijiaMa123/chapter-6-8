@@ -1,5 +1,7 @@
 import sys
-
+import turtle
+wn=turtle.Screen()
+frank=turtle.Turtle()
 def test(did_pass):
     """  Print the result of a test.  """
     linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
@@ -62,7 +64,24 @@ def before_sam(lst):
     return count
             
 
+def sqrt(n):
+    approx = n/3
+    while True:
+        better = (approx + n/approx)/2
+        print(better)
+        if abs(approx-better)<0.001:
+            return better
+        approx = better
 
+def is_prime(n):
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True
+
+
+
+        
 def test_suite():
     test(count_odd(mylist)==6)
     test(sum_even(mylist)==10)
@@ -74,4 +93,16 @@ def test_suite():
 
 test_suite()
 
-
+path=[(160, 20), (-43, 10), (270, 8), (-43, 12)]
+"""
+#11 it's comment out because if I do the infinity loop, program 12 will not come up
+for (angle,dist) in path:
+    while angle != 0:
+        frank.right(angle)
+        frank.forward(dist)
+"""
+house=[(45,141.4),(90,70.7),(90,70.7),(90,141.4),(135,100),(90,100),(90,100),(90,100)]
+#12
+for(angle,dist)in house:
+    frank.left(angle)
+    frank.forward(dist)
