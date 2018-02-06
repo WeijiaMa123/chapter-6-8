@@ -1,6 +1,5 @@
 import sys
 def test(did_pass):
-    """  Print the result of a test.  """
     linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
     if did_pass:
         msg = "Test at line {0} ok.".format(linenum)
@@ -39,10 +38,9 @@ def mirror(string):
 #11
 def count(sub,string):
     count = 0
-    for i in string:
-        if i==sub:
-            count += 1
-    return(count)
+    if string.find(sub) >= 0:
+        count += 1
+    return count
 
 
 def test_suite():
@@ -73,3 +71,7 @@ def test_suite():
 
 test_suite()
 
+
+print("i\ti*2\ti*3\ti*4\ti*5\ti*6\ti*7\ti*8\ti*9\ti*10\ti*11\ti*12")
+for i in range(1, 13):
+    print(i, "\t", i*2, "\t", i*3, "\t", i*4, "\t", i*5, "\t", i*6, "\t", i*7, "\t", i*8, "\t", i*9, "\t", i*10, "\t", i*11, "\t", i*12 )
