@@ -23,6 +23,10 @@ pygame.display.set_caption('A bit Racey')
 clock = pygame.time.Clock()
 
 carImg = pygame.image.load('racecar.pmg.png')
+gameIcon = pygame.image.load('icon.png')
+pygame.display.set_icon(gameIcon)
+
+pause = False
 
 
 def things_dodged(count):
@@ -58,7 +62,24 @@ def message_display(text):
 
 
 def crash():
-    message_display('You Crashed')
+    while True:
+        for event in pygame.event.get():
+            print(event)
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+        largeText = pygame.font.Font('freesansbold.ttf', 115)
+        TextSurf, TextRect = text_objects("Game Over", largeText)
+        TextRect.center = ((display_width / 2), (display_height / 2))
+        gameDisplay.blit(TextSurf, TextRect)
+
+
+        button("Try Again", 200, 400, 130, 50, green, bright_green,game_loop)
+        button("QUIT!", 500, 400, 100, 50, red, bright_red, quitgame)
+
+        pygame.display.update()
+        clock.tick(15)
 
 
 def game_intro():
@@ -73,21 +94,49 @@ def game_intro():
 
         gameDisplay.fill(white)
         largeText = pygame.font.Font('freesansbold.ttf', 115)
-        TextSurf, TextRect = text_objects("A bit Racey", largeText)
+        TextSurf, TextRect = text_objects("A bit Racy", largeText)
         TextRect.center = ((display_width / 2), (display_height / 2))
         gameDisplay.blit(TextSurf, TextRect)
 
-        button("QUIT!", 500, 400, 100, 50, red, bright_red)
-        button("GO!", 200, 400, 100, 50, green, bright_green)
 
+        button("Going!", 200, 400, 100, 50, green, bright_green,game_loop)
+        button("QUIT!", 500, 400, 100, 50, red, bright_red, quitgame)
+
+        pygame.display.update()
+        clock.tick(15)
+def unpause():
+    global pause
+    pause = False
+
+
+def pause1():
+    while pause:
+        for event in pygame.event.get():
+            print(event)
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+        gameDisplay.fill(white)
+        largeText = pygame.font.Font('freesansbold.ttf', 115)
+        TextSurf, TextRect = text_objects("Pause", largeText)
+        TextRect.center = ((display_width / 2), (display_height / 2))
+        gameDisplay.blit(TextSurf, TextRect)
+
+
+        button("Keep Going!", 200, 400, 130, 50, green, bright_green,unpause)
+        button("QUIT!", 500, 400, 100, 50, red, bright_red, quitgame)
 
         pygame.display.update()
         clock.tick(15)
 
-def button(msg,x,y,w,h,ic,ac):
+def button(msg,x,y,w,h,ic,ac,action=None):
     mouse = pygame.mouse.get_pos()
+    click=pygame.mouse.get_pressed()
     if x+w > mouse[0] > x and y+h > mouse[1] > y:
         pygame.draw.rect(gameDisplay, ac, (x, y-5, w, h))
+        if click[0] == 1 and action != None:
+            action()
     else:
         pygame.draw.rect(gameDisplay, ic, (x, y, w, h))
 
@@ -96,10 +145,14 @@ def button(msg,x,y,w,h,ic,ac):
     textRect.center = ((x + (w / 2)), (y + (h / 2)))
     gameDisplay.blit(textSurf, textRect)
 
-    pygame.display.update()
 
+def quitgame():
+    pygame.quit()
+    quit()
 
 def game_loop():
+
+    global pause
     x = (display_width * 0.45)
     y = (display_height * 0.8)
 
@@ -129,6 +182,12 @@ def game_loop():
                     x_change = -5
                 if event.key == pygame.K_RIGHT:
                     x_change = 5
+                if event.key == pygame.K_p:
+                    pause = True
+                    pause1()
+
+
+
 
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
@@ -165,7 +224,6 @@ def game_loop():
 
 
 game_intro()
-
 game_loop()
 pygame.quit()
 quit()
