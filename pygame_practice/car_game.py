@@ -17,6 +17,8 @@ bright_green = (0,255,0)
 block_color = (255, 0, 0)
 
 car_width = 73
+crash_sound = pygame.mixer.Sound("boom.wav")
+pygame.mixer.music.load('house_lo.wav')
 
 gameDisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('A bit Racey')
@@ -62,6 +64,8 @@ def message_display(text):
 
 
 def crash():
+    pygame.mixer.music.stop()
+    pygame.mixer.Sound.play(crash_sound)
     while True:
         for event in pygame.event.get():
             print(event)
@@ -151,7 +155,7 @@ def quitgame():
     quit()
 
 def game_loop():
-
+    pygame.mixer.music.play(-1)
     global pause
     x = (display_width * 0.45)
     y = (display_height * 0.8)
