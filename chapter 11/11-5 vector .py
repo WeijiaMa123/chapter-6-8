@@ -1,4 +1,4 @@
-"""this = ["I", "am", "not", "a", "crook"]
+this = ["I", "am", "not", "a", "crook"]
 that = ["I", "am", "not", "a", "crook"]
 print("Test 1: {0}".format(this is that))
 that = this
@@ -31,3 +31,4 @@ def test_suite():
 
 
 test_suite()
+"""
