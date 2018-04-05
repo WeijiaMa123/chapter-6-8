@@ -40,16 +40,16 @@ def advance_state_machine():
         tess.forward(70)
         tess.fillcolor("orange")
         state_num = 1
-        wn.ontimer(advance_state_machine, 60)
+        wn.ontimer(advance_state_machine, 500)
     elif state_num == 1:
         tess.forward(70)
         tess.fillcolor("red")
-        wn.ontimer(advance_state_machine, 1000)
+        wn.ontimer(advance_state_machine, 3000)
         state_num = 2
     else:
         tess.back(140)
         tess.fillcolor("green")
-        wn.ontimer(advance_state_machine, 1000)
+        wn.ontimer(advance_state_machine, 3000)
         state_num = 0
 
 

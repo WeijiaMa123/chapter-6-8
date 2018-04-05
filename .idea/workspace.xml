@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9dff9567-4ca8-4793-af83-30e4cac7411c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chapter 11/11-5 vector .py" afterPath="$PROJECT_DIR$/chapter 11/11-5 vector .py" />
+      <change beforePath="$PROJECT_DIR$/chapter 10/10.2.py" afterPath="$PROJECT_DIR$/chapter 10/10.2.py" />
+      <change beforePath="$PROJECT_DIR$/chapter 10/10.4.py" afterPath="$PROJECT_DIR$/chapter 10/10.4.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,31 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11-5 vector .py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter 11/11-5 vector .py">
+      <file leaf-file-name="10.2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter 10/10.2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11-7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 11/11-7.py">
+      <file leaf-file-name="10.4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter 10/10.4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 11/11.10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="504">
+              <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -67,13 +58,13 @@
         <option value="$PROJECT_DIR$/pygame_practice/shapes.py" />
         <option value="$PROJECT_DIR$/pygame_practice/car_game.py" />
         <option value="$PROJECT_DIR$/tuples.py" />
-        <option value="$PROJECT_DIR$/chapter 10/10.2.py" />
-        <option value="$PROJECT_DIR$/chapter 10/10.4.py" />
         <option value="$PROJECT_DIR$/chapter 11/11.5.py" />
         <option value="$PROJECT_DIR$/chapter 11/11-7.py" />
         <option value="$PROJECT_DIR$/chapter 11/11.8.py" />
         <option value="$PROJECT_DIR$/chapter 11/11.10.py" />
         <option value="$PROJECT_DIR$/chapter 11/11-5 vector .py" />
+        <option value="$PROJECT_DIR$/chapter 10/10.2.py" />
+        <option value="$PROJECT_DIR$/chapter 10/10.4.py" />
       </list>
     </option>
   </component>
@@ -98,8 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +115,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11-5 vector ">
+  <component name="RunManager" selected="Python.10.4">
     <configuration name="10.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,11 +254,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11-5 vector " />
-        <item index="1" class="java.lang.String" itemvalue="Python.11.10" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11.5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.10.4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.10.2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.10.4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10.2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.11-5 vector " />
+        <item index="3" class="java.lang.String" itemvalue="Python.11.10" />
+        <item index="4" class="java.lang.String" itemvalue="Python.11.5" />
       </list>
     </recent_temporary>
   </component>
@@ -641,20 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter 10/10.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter 10/10.4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter 11/11.5.py" />
     <entry file="file://$PROJECT_DIR$/Chapter_8/8.3-8.13.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,26 +641,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter 11/11.8.py" />
-    <entry file="file://$PROJECT_DIR$/chapter 11/11-7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter 11/11.10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter 11/11-5 vector .py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 11/11-7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 10/10.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 10/10.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -1,16 +1,16 @@
-import turtle           # Tess becomes a traffic light.
+import turtle
 
 turtle.setup(400,500)
 wn = turtle.Screen()
 wn.title("Tess becomes a traffic light!")
 wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
-frank = turtle.Turtle()
-dude = turtle.Turtle()
+mama = turtle.Turtle()
+baba = turtle.Turtle()
 
 
 def draw_housing():
-    """ Draw a nice housing to hold the traffic lights """
+
     tess.pensize(3)
     tess.color("black", "darkgrey")
     tess.begin_fill()
@@ -37,20 +37,20 @@ tess.shapesize(3)
 tess.fillcolor("green")
 
 
-frank.forward(40)
-frank.left(90)
-frank.forward(190)
+mama.forward(40)
+mama.left(90)
+mama.forward(190)
 
-frank.shape("circle")
-frank.shapesize(3)
-frank.fillcolor("red")
+mama.shape("circle")
+mama.shapesize(3)
+mama.fillcolor("black")
 
-dude.forward(40)
-dude.left(90)
-dude.forward(120)
-dude.shape("circle")
-dude.shapesize(3)
-dude.fillcolor("orange")
+baba.forward(40)
+baba.left(90)
+baba.forward(120)
+baba.shape("circle")
+baba.shapesize(3)
+baba.fillcolor("black")
 
 
 state_num = 2
@@ -58,24 +58,24 @@ state_num = 2
 
 def advance_state_machine():
     global state_num
-    if state_num == 0:       # Transition from state 0 to state 1
+    if state_num == 0:
         tess.fillcolor("black")
-        frank.fillcolor("black")
-        dude.fillcolor("orange")
+        mama.fillcolor("black")
+        baba.fillcolor("orange")
         state_num = 1
     elif state_num == 1:
         tess.fillcolor("black")
-        dude.fillcolor("black")
-        frank.fillcolor("red")
+        baba.fillcolor("black")
+        mama.fillcolor("red")
         state_num = 2
-    else:                    # Transition from state 2 to state 0
-        frank.fillcolor("black")
-        dude.fillcolor("black")
+    else:
+        mama.fillcolor("black")
+        baba.fillcolor("black")
         tess.fillcolor("green")
         state_num = 0
 
-# Bind the event handler to the space key.
+
 wn.onkey(advance_state_machine, "space")
 
-wn.listen()                      # Listen for events
+wn.listen()
 wn.mainloop()
