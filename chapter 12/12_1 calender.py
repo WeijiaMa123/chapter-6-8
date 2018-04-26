@@ -1,12 +1,15 @@
 import calendar
-#cal = calendar.TextCalendar()
+d=calendar.TextCalendar()
+d.setfirstweekday(calendar.THURSDAY)
+d.pryear(2018)
+
+
 
 def firstday():
-    calendar.setfirstweekday(calendar.THURSDAY)
-    cal.pryear(2012)
+    calendar.TextCalendar(2012)
 
 def birthday():
-    itermonthdates(2012, 10)
+    calendar.TextCalendar.formatmonth(2012,7,10,10)
 
 
 
@@ -16,5 +19,12 @@ def birthday():
 
 
 def leap():
-    calendar.isleap(2008)
+    calendar.TextCalendar.isleap()
+
+
+
+
+
+
+
 
