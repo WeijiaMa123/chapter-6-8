@@ -1,25 +1,26 @@
 import calendar
-d=calendar.TextCalendar()
-d.setfirstweekday(calendar.THURSDAY)
-d.pryear(2018)
+d=calendar.TextCalendar() #a
 
-
-
-def firstday():
-    calendar.TextCalendar(2012)
-
-def birthday():
-    calendar.TextCalendar.formatmonth(2012,7,10,10)
+def firstday(): #b
+    d.setfirstweekday(calendar.THURSDAY)
+    d.pryear(2018)
 
 
 
 
-#d = calendar.LocaleTextCalendar(6, "SPANISH")
-#d.pryear(2012)
+
+def birthday():#c
+    d.prmonth(2002,7)
 
 
-def leap():
-    calendar.TextCalendar.isleap()
+
+def local():#d
+    d = calendar.LocaleTextCalendar(6, "en")
+    d.pryear(2012)
+
+
+
+print(calendar.isleap(2012))  #boolean function    e
 
 
 
