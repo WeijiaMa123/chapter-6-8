@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dff9567-4ca8-4793-af83-30e4cac7411c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter 12/12_3 copy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/chapter 14/8 queen puzzle.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chapter 12/12_1 calender.py" afterPath="$PROJECT_DIR$/chapter 12/12_1 calender.py" />
-      <change beforePath="$PROJECT_DIR$/chapter 12/12_2 math.py" afterPath="$PROJECT_DIR$/chapter 12/12_2 math.py" />
-      <change beforePath="$PROJECT_DIR$/chapter 12/mymodule1.py" afterPath="$PROJECT_DIR$/chapter 12/mymodule1.py" />
-      <change beforePath="$PROJECT_DIR$/chapter 12/mymodule2.py" afterPath="$PROJECT_DIR$/chapter 12/mymodule2.py" />
-      <change beforePath="$PROJECT_DIR$/chapter 12/namespace_test.py" afterPath="$PROJECT_DIR$/chapter 12/namespace_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,63 +14,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12_1 calender.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 12/12_1 calender.py">
+      <file leaf-file-name="practice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter 14/practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12_2 math.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 12/12_2 math.py">
+      <file leaf-file-name="8 queen puzzle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter 14/8 queen puzzle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12_3 copy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 12/12_3 copy.py">
+      <file leaf-file-name="alice_in_wonderland.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter 14/alice_in_wonderland.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="49695">
+              <caret line="3313" column="0" lean-forward="false" selection-start-line="3313" selection-start-column="0" selection-end-line="3313" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="namespace_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter 12/namespace_test.py">
+      <file leaf-file-name="unit_tester.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter 14/unit_tester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mymodule2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 12/mymodule2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mymodule1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 12/mymodule1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -120,6 +93,9 @@
         <option value="$PROJECT_DIR$/chapter 12/namespace_test.py" />
         <option value="$PROJECT_DIR$/chapter 12/mymodule2.py" />
         <option value="$PROJECT_DIR$/chapter 12/mymodule1.py" />
+        <option value="$PROJECT_DIR$/chapter 14/unit-test.py" />
+        <option value="$PROJECT_DIR$/chapter 14/practice.py" />
+        <option value="$PROJECT_DIR$/chapter 14/8 queen puzzle.py" />
       </list>
     </option>
   </component>
@@ -144,7 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,13 +131,13 @@
             <path>
               <item name="homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter 12" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter 14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.namespace_test">
+  <component name="RunManager" selected="Python.8 queen puzzle">
     <configuration name="12_1 calender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,6 +193,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="8 queen puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 14/8 queen puzzle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ex8" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,24 +224,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="homework" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_8/ex8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mymoduel1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 12/mymoduel1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,19 +247,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 13/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 14/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,17 +269,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.ex8" />
       <item index="1" class="java.lang.String" itemvalue="Python.12_1 calender" />
       <item index="2" class="java.lang.String" itemvalue="Python.namespace_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mymoduel1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.practice (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.12_3 copy" />
+      <item index="3" class="java.lang.String" itemvalue="Python.12_3 copy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.practice" />
+      <item index="5" class="java.lang.String" itemvalue="Python.8 queen puzzle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.namespace_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.12_3 copy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12_1 calender" />
-        <item index="3" class="java.lang.String" itemvalue="Python.practice (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mymoduel1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.8 queen puzzle" />
+        <item index="1" class="java.lang.String" itemvalue="Python.practice" />
+        <item index="2" class="java.lang.String" itemvalue="Python.namespace_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12_3 copy" />
+        <item index="4" class="java.lang.String" itemvalue="Python.12_1 calender" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +319,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39625585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -390,41 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pygame_practice/car_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame_practice/car_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame_practice/car_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame_practice/car_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame_practice/car_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygame_practice/shapes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -677,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,23 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter 12/mymodule2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter 12/mymodule1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,17 +632,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter 12/namespace_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 12/mymodule2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 12/mymodule1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 14/unit-test.py" />
+    <entry file="file://$PROJECT_DIR$/chapter 14/alice_in_wonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49695">
+          <caret line="3313" column="0" lean-forward="false" selection-start-line="3313" selection-start-column="0" selection-end-line="3313" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 14/unit_tester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 14/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 14/8 queen puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
